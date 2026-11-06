@@ -1,0 +1,35 @@
+# Claude Code master implementation directive — LEVERAGE
+
+Implement only the authorized milestone, never the full civilization in one pass. Official product name LEVERAGE. Read [hub](LEVERAGE_README.md), [vision](LEVERAGE_VISION.md), [board findings](LEVERAGE_BOARD_GAME_RESEARCH.md), [corporate world](LEVERAGE_CORPORATE_WORLD.md), [finance/research](LEVERAGE_FINANCE_AND_RESEARCH.md), [UI/art](LEVERAGE_UI_ART_DIRECTION.md), [feature audit](LEVERAGE_FEATURE_AUDIT.md), [roadmap](LEVERAGE_IMPLEMENTATION_ROADMAP.md), [questions](LEVERAGE_OPEN_QUESTIONS.md) and [platform evidence](LEVERAGE_PLATFORM_RESEARCH.md). The historical [17 directive](../research/17_CLAUDE_CODE_MASTER_PROMPT.md) is preserved for traceability; this document supersedes it for new work.
+
+## Evidence and authority
+
+**Verified:** research harnesses/tests run and raw results exist. **Experimentally supported:** 392 continuation games show substantial draw problems and limited depth separation. **Plausible but unverified:** proposed career/finance/UI architectures. **Speculative:** exceptional depth, strong AI, 20k full-world performance, Windows/iPhone release readiness. **Rejected:** claiming production approval from these tests. Default next task R0/P1 research prototype; do not silently freeze a candidate as definitive.
+
+Historical Leverage v0.1 is defined by [03](../research/03_FORMAL_RULESETS.md), section L plus common rules, and unchanged `research/experiments/arena.py`. Laboratory v0.2 has precise [independent formal rules](../research/18_CONTINUATION_FORMAL_RULES.md) and `continuation.py`. There is no selected release ruleset. Never combine v0.1 connectivity, v0.2 push, old Relay delivery and arbitrary endgame fixes under an existing version. If reproducing v0.1, obey 5×5, five reserves, strict pre-move adjacency power, enemy post-capture component cleanup, P empty-move whole-network constraint, anchor exception, threefold and 100-ply draw. If reproducing v0.2, use its own exact scaffold, configurations and 120-ply bound. Any fix gets a new rule ID and its own tests/results.
+
+## First playable scope
+
+Build a local playable board with legally generated inputs, power/collapse preview, replay, tutorial and worker AI. Default to an explicitly labelled research configuration after reviewing 19; do not present a recommended production winner. Couple it to three companies with one actual six-person team each. Intern seat has funded salary; one vacant lead seat publishes qualification, paired competition and guaranteed approval contract. Apply is one action, competition uses identical rules for all, accept appointment atomically; header and roster authority then change. Include loss and recovery path. No fake HR tables, arbitrary denial after winning or cosmetic titles. Save/load the full match, histories, employee/position assignments, event queue and balances. Markets not enabled in P1; no mandatory betting.
+
+Use pure rules separated from UI and domain authority checks; transition boundary rejects illegal and terminal actions. Independent reference oracle, invariant/differential tests, repetition history-aware search, per-turn hard node budget, completed iteration reporting and cancellable worker. Difficulty must show paired measured strength, not larger labels. Commentary explains local verifiable facts, not unproven forced wins. Persist rule/engine/model versions and seed; no hidden match randomness. Never title-adjust pieces, search permissions in competitive rules or official victory conditions.
+
+## World and tournaments
+
+Separate people, seats, title/grade, rating, authority, ownership and wealth. Acyclic organizations and unique incumbency. Stable IDs and event-driven scheduling; no full expensive AI every frame. Important/official matches use full engine; approximate league results are disclosed and cannot be swapped after commitment. Player visibility cannot change a committed outcome. Tournament format/seeding/withdrawal/bye/tie/appeal/appointment policy is published before entry. Guaranteed wins appoint, nominations require stated governance approval. CEO/owner rights respect charter/share votes. Demotion needs warnings/review; layoffs preserve real histories and external recovery. Persist AI-only leadership changes and derive legends from actual events.
+
+## Financial research and markets, later gates
+
+Research hierarchy unlocks statistical tools over immutable PUBLIC history, forecasts with error bars and calibration, scenarios and portfolio exposure. No future moves/results, concealed seeds or private engine evaluations during an open official market. Horizontal department specializations and purchased public analytics preserve investor/junior agency. Synthetic forecast benchmark is not a calibrated board predictor and guarantees no profit.
+
+Use integer double-entry cash journal with funded sources and separate equity/claims/marked wealth. Implement deterministic LMSR numeric algorithm with bounded rounding before enabling trade. Fund subsidy and reserve aggregate liability; long-only initially, fee/collateral limits, causal conflict exclusion, lock/resolution/void/idempotent settlement. Own/controlled outcomes sandbox-only with zero campaign conversion. Test full lifecycle, saved in-flight transactions, authority changes, cap tables/dividend cutoff and bankruptcy. No accounts, cash-out, real-money currency or paid service.
+
+## UI/platform constraints
+
+Four destinations: Arena, Exchange, Career, Empire, introduced when functional. Persistent TITLE | EMPLOYEES OVERSEEN | POWER | RATING | NET WORTH; phone two-row layout, readable labels and full details on inspection. Power is authority scope, never board strength. Spectator board, forecasts and position chip share one arena surface; progressive overlays. Follow pixel kit/layout values and accessibility in UI spec, measure contrast/mis-taps/teach-back. No tiny mandatory pixel text or generic dashboard sprawl.
+
+Shared TS web core with workers, IndexedDB atomic generations, export/import, migrations on copies, offline local assets and explicit event ordering. Tauri/Electron selection requires actual packaging spike. Windows build/installer clean VM and physical iPhone installed-PWA offline/relaunch/save/export tests are mandatory before support claims. PWA installation needs initial HTTPS access; runtime needs none. Browser storage persistence is not guaranteed. Research references are not device test evidence.
+
+## Completion evidence
+
+Follow per-stage gates in roadmap. P1 requires ≥10k oracle-agreement states, targeted rule/terminal tests, one real playable match and appointment/loss recovery, worker cancellation metrics, funded finance/unique occupancy, deterministic replay and crash/export/import recovery. All target values are FUTURE acceptance criteria. Report exact commands/status/counts, artifacts/commit, rule/schema versions, known defects, deliberate omissions and playable proof. Do not replace failed checks with trivial checks or describe placeholders as finished. Respect existing user work; no new worktree unless explicitly asked. Stop expansion if core gameplay fails its gate.

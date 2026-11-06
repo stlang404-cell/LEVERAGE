@@ -1,0 +1,12 @@
+# Staged roadmap with explicit evidence gates
+
+No delivery dates are asserted without team/cost information. Each stage ends in a playable build or an explicit research stop.
+
+0. Research follow-up: verify sources; independently implement rules; test Leverage connectivity variants; deepen paired agents and run human trials. Gate: freeze a version only after repeatable tactics, teach-back and no known reproducible opening exploit. Otherwise keep Relay as fallback or invent again. Save old rules/results.
+1. First playable laboratory slice: local board, legal highlights/collapse preview, undo in practice, seeded opponent, full replay, three-corporation shell with one 6-person team each, one funded salary/prize cycle and one real vacancy. Play a tournament, apply for lead role, save and reload. Cash/positions affect future choices but never moves. UI clearly labels simulated shells. No betting required, no production scale claims. Gate: see 17.
+2. Career and leadership: expand to 120 people, actual reporting hierarchy, budgets, reviews, warning/demotion, transfer and rival history. Gate: all authority paths exercised, no-betting recovery from dismissal, replay-equivalent saved week.
+3. Financial laboratory: binary third-party markets, ledger, funded maker and explicit settlement; no politically influenced markets. Gate: duplicate/void/refund, insider exclusion, fees, collateral and insolvency tests; automated long-run cash and share conservation. Markets remain optional.
+4. Corporate ownership: cap tables, dividends, governance, hiring/reorganization and bankruptcy. Gate: controlling stake does not permit personal withdrawal, hostile/minority scenarios and recovery tested. At least one enjoyable investor-only journey.
+5. Scale, art and release: benchmark 2k then 20k targets, authored pixel kit, accessibility and long campaigns. Choose desktop shell from actual packaging spikes; test Windows installer on clean VM and iPhone installed offline behavior on physical hardware. Gate: disclosed performance results, migration/crash/export recovery, asset licensing and offline audit.
+
+At every stage: report build commit, rule version, tests executed, real gameplay evidence, known defects and omitted systems. A placeholder economy or abstract offscreen result is never presented as a finished market or full engine match. Dependencies: stable board before rating/odds calibration; stable event IDs before settlement; stable ownership before conflict checks; saved schema before campaign expansion.

@@ -1,0 +1,11 @@
+# Pixel-art identity and interface plan
+
+Proposed identity: midnight-indigo towers, warm ivory board, copper authority accents and teal operational highlights. Avoid a derivative television-show costume language. Corporate drama comes from public brackets, scheduled reviews and office movement; no lethal framing. Each corporation gets a small authored emblem and palette, not unlimited procedural art.
+
+Start with one authored tile kit: 16×16 environment tiles, 24×24 board agents, 32×32 anchors, 48×48 portraits; 12 portrait templates with layered hair/accessories/palette variants. Count combinations accurately; combinations do not equal unique authored portraits. Board symbols must differ in silhouette and interior glyph, not color alone. Status triangles and connection lines have toggles. Screen UI text uses readable scalable typography rather than forcing tiny pixel letters.
+
+Desktop: board center, concise rival/career panel left, collapsible event ledger right. Five top-level destinations: Play, Career, Company, Exchange, People. Phone: board first, bottom tabs and inspect drawer; never require a tiny full org chart. Recommended touch target 44 CSS px; 5×5 board fits 320 CSS px with margins, 8×8 needs zoom/alternate interaction. Keyboard grid navigation, focus outlines, Enter confirmation, Escape cancellation, screen-reader move log and reduced-motion mode. Never rely on hover alone.
+
+Selection previews legal destinations; capture preview lists exactly which pieces disappear and why; confirm optional for high-impact moves. Animations 120–250 ms proposed, skippable, never delay rules state or input indefinitely. Expose text “unsupported branch removed” with before/after replay. A single match page should teach local power without opening a manual.
+
+Organization browser shows one team and its reporting ancestors; search/jump for distant people. Financial confirmation shows cash cost, maximum loss, fee, settlement condition and conflict status. No flashing red trading pressure. Event feed groups routine payroll while retaining ledger drill-down. Art originality, readability and mobile feel need human evaluation; no production art was generated in this research package.

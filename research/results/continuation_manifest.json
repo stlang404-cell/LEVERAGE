@@ -1,0 +1,21 @@
+{
+  "python": "3.12.14",
+  "commands": [
+    "python research/experiments/continuation.py",
+    "python research/experiments/world_bench.py",
+    "python research/experiments/continuation_report.py"
+  ],
+  "sha256": {
+    "research/experiments/continuation.py": "0983c3cdb5ec5bf61c13f4a1fbc3fa5b9085ac85484eb803e254d08a082b1f75",
+    "research/experiments/test_continuation.py": "56d3fc38f26f59be86050bde73aa7836d8557327e8e62e885fff4fa8419549b4",
+    "research/experiments/world_bench.py": "a29e40b7ee1ad55eb4ff9c1b4b7149f8a2688a204d42521ab7821a2baa0a741d",
+    "research/experiments/continuation_report.py": "56260bda7d043462e1f2dda9dc270836c0caf3b9c3a1bbd1cb36b9c278cf1c24",
+    "research/results/continuation.json": "3f768df61c4d3d8f2c4aebdf1acb3571c6a7c0487a487e629e321398922eb2cf",
+    "research/results/world_bench.json": "b655c3cd6ee0c1e1e99a356d5151f05ed7b2314b1f7522334953e0b5a777985a",
+    "research/results/platform_sources.json": "8c5043a86b6a72523dd49170c17866eb28fd5f1de37137933606e9fd7c32b42a",
+    "research/experiments/audit_continuation.py": "bd55d447f60c61875c28c77005164c54fe5483fcb2663ff27bd3c21ed0a0f03b",
+    "research/experiments/check_docs.py": "4deea877d6ed0ec9c32cd008a8f8d68ff6470314199e70d92340c741d022a2cc",
+    "research/results/continuation_audit.json": "db564d98ee1bb3dad3de99fbcad931b8169babe7f26127a7c321af912f937729",
+    "research/results/continuation_tests.txt": "6c58dde247c4454db5215b8f05b2e6f2728f46f12a4ef9a8ecbadfcbf96260ad"
+  }
+}

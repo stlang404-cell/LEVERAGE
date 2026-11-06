@@ -1,0 +1,23 @@
+[
+  {
+    "name": "tauri_prerequisites",
+    "url": "https://raw.githubusercontent.com/tauri-apps/tauri-docs/v2/src/content/docs/start/prerequisites.mdx",
+    "status": "retrieved",
+    "sha256": "2b72fc4fa86ff825e745c5371c97d4c314064f380af2882a80676cb49aa9a4fc",
+    "bytes": 12909
+  },
+  {
+    "name": "mdn_storage",
+    "url": "https://raw.githubusercontent.com/mdn/content/main/files/en-us/web/api/storage_api/storage_quotas_and_eviction_criteria/index.md",
+    "status": "retrieved",
+    "sha256": "0b6662b2fe059251bd33dc3bd96753204f848b58153f9d193838a9b166d92f67",
+    "bytes": 15719
+  },
+  {
+    "name": "mdn_install",
+    "url": "https://raw.githubusercontent.com/mdn/content/main/files/en-us/web/progressive_web_apps/guides/making_pwas_installable/index.md",
+    "status": "retrieved",
+    "sha256": "0e2712500837b9985b1a69b2954d6e5c01e3e4e27e8f1a0db5832de9546810b2",
+    "bytes": 10538
+  }
+]

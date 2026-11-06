@@ -1,0 +1,15 @@
+{
+  "command": "python research/experiments/arena.py --pairs 8",
+  "python": "3.12.14",
+  "seed_range": [
+    0,
+    7
+  ],
+  "files_sha256": {
+    "research/experiments/arena.py": "1fe0b23593184b0955afe3296e2ed15616f64891c3ab0ba48941a2b505cd66bd",
+    "research/experiments/test_lab.py": "e0b5581b0616475da68ec1a47206520c0d7ff0a40b8b9d66077bf53568f02c4d",
+    "research/results/games.json": "669f7d8b62bf06c2ae91550bc41b587fa4ac26cec451db6e90366f349e033288",
+    "research/experiments/variants.py": "cd1bd4d8595c62213f68358f8ab8e7df8ecf9abd7b24ace99da8f40aeb0124ac",
+    "research/results/variants.json": "1d2298d739fe21e61224b2650c0ce0827a6c21891238de9f17acfb8af26cc938"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "games_audited": 392,
+  "legal_transitions_audited": 21138,
+  "representative_games_exactly_replayed": 7,
+  "comparison_excludes": "elapsed times",
+  "independent_rules_oracle": false
+}
