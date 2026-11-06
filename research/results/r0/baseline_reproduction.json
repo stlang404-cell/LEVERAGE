@@ -1,0 +1,18 @@
+{
+  "baseline_commit": "ac7c71964f7331f1fc56282320891497385ce6c0",
+  "v01_games_exact": 240,
+  "v02_games_exact": 392,
+  "excluded_fields": [
+    "elapsed seconds"
+  ],
+  "prior_draws": {
+    "free5": 25,
+    "breach5": 24,
+    "pressure5": 27,
+    "relay5": 29,
+    "pressure6": 38,
+    "pressure7": 43,
+    "pressure5_formation": 39
+  },
+  "v01_connectivity_games_exact": 96
+}

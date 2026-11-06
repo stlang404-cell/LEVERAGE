@@ -16,3 +16,7 @@ The central loop is **apply → compete → approval → promote**, with practic
 - Loss never removes practice or every recovery route. No compulsory gambling, daily chores, real waiting or promotion treadmill.
 
 **Rejected:** shipping a corporation around an unvalidated game. **Speculative:** exceptional depth, premium visual quality, calibrated strong AI and 20,000-person living histories; these require empirical gates. See [roadmap](LEVERAGE_IMPLEMENTATION_ROADMAP.md).
+
+## Final R0 gate
+
+**RESEARCH STOP:** [final evidence](LEVERAGE_R0_FINAL_RESEARCH_REPORT.md) selects no ruleset. The complete corporate/financial vision above remains the target; it does not authorize production around a weak core. A narrowly scoped repetition diagnosis is the next task. Competitive skill, corporate power and wealth must remain separate throughout future work.

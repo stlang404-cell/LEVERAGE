@@ -1,0 +1,60 @@
+{
+  "A": [
+    {
+      "size": 5,
+      "states": 1200,
+      "win": 624,
+      "loss": 576,
+      "draw": 0,
+      "max_attractor_layers": 14,
+      "fresh_history": true
+    },
+    {
+      "size": 6,
+      "states": 2520,
+      "win": 1296,
+      "loss": 1224,
+      "draw": 0,
+      "max_attractor_layers": 18,
+      "fresh_history": true
+    },
+    {
+      "size": 7,
+      "states": 4704,
+      "win": 2400,
+      "loss": 2304,
+      "draw": 0,
+      "max_attractor_layers": 22,
+      "fresh_history": true
+    }
+  ],
+  "C": [
+    {
+      "size": 3,
+      "budget": 250000,
+      "nodes": 6,
+      "proven_states": 6,
+      "root_value": 1,
+      "seconds": 0.00045413399993776693,
+      "semantics": "value from first side; null = UNKNOWN, not draw"
+    },
+    {
+      "size": 4,
+      "budget": 250000,
+      "nodes": 588,
+      "proven_states": 588,
+      "root_value": -1,
+      "seconds": 0.010322158999770181,
+      "semantics": "value from first side; null = UNKNOWN, not draw"
+    },
+    {
+      "size": 5,
+      "budget": 250000,
+      "nodes": 250000,
+      "proven_states": 249988,
+      "root_value": null,
+      "seconds": 5.574333667999781,
+      "semantics": "value from first side; null = UNKNOWN, not draw"
+    }
+  ]
+}

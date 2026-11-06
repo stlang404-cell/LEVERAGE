@@ -1,0 +1,138 @@
+{
+  "seed_range": [
+    0,
+    999
+  ],
+  "draw_probability": 0.25,
+  "first_seat_logistic_bonus": 0.03,
+  "observed_rating_noise_sd": 80,
+  "paired_games": true,
+  "summary": [
+    {
+      "entrants": 4,
+      "format": "knockout",
+      "trials": 1000,
+      "best_selected": 0.421,
+      "binomial_wilson95": [
+        0.39075838331540824,
+        0.4518462666612415
+      ],
+      "mean_winner_true_rank": 1.95,
+      "median_total_games": 8.0,
+      "median_champion_games": 6.0,
+      "max_games_any_player": 8
+    },
+    {
+      "entrants": 4,
+      "format": "round_robin",
+      "trials": 1000,
+      "best_selected": 0.402,
+      "binomial_wilson95": [
+        0.37204169195598835,
+        0.43270838016694435
+      ],
+      "mean_winner_true_rank": 2.014,
+      "median_total_games": 12.0,
+      "median_champion_games": 6.0,
+      "max_games_any_player": 6
+    },
+    {
+      "entrants": 4,
+      "format": "swiss_final",
+      "trials": 1000,
+      "best_selected": 0.477,
+      "binomial_wilson95": [
+        0.44618966977096414,
+        0.5079863675640099
+      ],
+      "mean_winner_true_rank": 1.883,
+      "median_total_games": 14.0,
+      "median_champion_games": 8.0,
+      "max_games_any_player": 10
+    },
+    {
+      "entrants": 8,
+      "format": "knockout",
+      "trials": 1000,
+      "best_selected": 0.408,
+      "binomial_wilson95": [
+        0.3779471781311396,
+        0.4387569712087563
+      ],
+      "mean_winner_true_rank": 2.201,
+      "median_total_games": 18.0,
+      "median_champion_games": 8.0,
+      "max_games_any_player": 12
+    },
+    {
+      "entrants": 8,
+      "format": "round_robin",
+      "trials": 1000,
+      "best_selected": 0.44,
+      "binomial_wilson95": [
+        0.40952130015104676,
+        0.47093792767932025
+      ],
+      "mean_winner_true_rank": 2.059,
+      "median_total_games": 56.0,
+      "median_champion_games": 14.0,
+      "max_games_any_player": 14
+    },
+    {
+      "entrants": 8,
+      "format": "swiss_final",
+      "trials": 1000,
+      "best_selected": 0.402,
+      "binomial_wilson95": [
+        0.37204169195598835,
+        0.43270838016694435
+      ],
+      "mean_winner_true_rank": 2.194,
+      "median_total_games": 34.0,
+      "median_champion_games": 10.0,
+      "max_games_any_player": 12
+    },
+    {
+      "entrants": 16,
+      "format": "knockout",
+      "trials": 1000,
+      "best_selected": 0.426,
+      "binomial_wilson95": [
+        0.39569154544653623,
+        0.4568748355442496
+      ],
+      "mean_winner_true_rank": 2.163,
+      "median_total_games": 38.0,
+      "median_champion_games": 10.0,
+      "max_games_any_player": 16
+    },
+    {
+      "entrants": 16,
+      "format": "round_robin",
+      "trials": 1000,
+      "best_selected": 0.473,
+      "binomial_wilson95": [
+        0.4422173178786741,
+        0.5039893346449911
+      ],
+      "mean_winner_true_rank": 1.955,
+      "median_total_games": 240.0,
+      "median_champion_games": 30.0,
+      "max_games_any_player": 30
+    },
+    {
+      "entrants": 16,
+      "format": "swiss_final",
+      "trials": 1000,
+      "best_selected": 0.423,
+      "binomial_wilson95": [
+        0.39273126503297306,
+        0.45385807734933115
+      ],
+      "mean_winner_true_rank": 2.219,
+      "median_total_games": 82.0,
+      "median_champion_games": 12.0,
+      "max_games_any_player": 14
+    }
+  ]
+}

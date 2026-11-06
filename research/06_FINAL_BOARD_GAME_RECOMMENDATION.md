@@ -26,3 +26,7 @@ Proceed to a disposable interactive Leverage v0.1 prototype with transparent dra
 ## Executed connectivity follow-up
 
 A separate 96-game experiment tested strict resulting connectivity (48/48 draws) and own-piece cleanup after every action (29/48 draws). Both performed worse on sampled draw frequency and are rejected as default fixes. These variants do not modify or replace v0.1. See 04 and `results/variants.json`. More research remains necessary before a production rules freeze.
+
+## Final R0 supersession note
+
+This document preserves historical evidence and proposals. The current [final R0 report](../docs/LEVERAGE_R0_FINAL_RESEARCH_REPORT.md) records **RESEARCH STOP**, with exact new rules/results in research 20–21. No historical recommendation here authorizes implementation of an unapproved or rejected ruleset. Frozen rule text and old experiment sources/results remain unchanged.

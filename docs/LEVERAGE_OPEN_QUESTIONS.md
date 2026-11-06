@@ -1,17 +1,17 @@
 # Highest-impact open questions
 
-**Speculative unless stated otherwise.** These questions are ordered by development risk, not documentation size.
+**Current decision: RESEARCH STOP.** These questions are ordered by development risk. The smallest next task is one full-history A5 repetition diagnosis, not another broad production pass. See [final report](LEVERAGE_R0_FINAL_RESEARCH_REPORT.md).
 
 |Question / finding|Next experiment and decision rule|
 |---|---|
-|Can the network game sustain repeated play?|R0 independent engine, human repeated sessions and stronger held-out agents; reject if interest or nontrivial choices fail|
-|Can anchor-only/endgame deadlocks be fixed elegantly?|Compare vulnerable-anchor capture, positional siege and delivery-only victory as separately versioned rules; include teaching and forced-rush defenses|
+|Can the network game sustain repeated play?|Independent reference/oracle now exists; 672 main new games still fail key gates. Diagnose first repetition, then real human sessions only if justified|
+|Can anchor-only/endgame deadlocks be fixed elegantly?|EA-0.3.0 repairs fresh anchor-only endgames exactly, but default canonical strong play still draws 14/16. Explain material-rich repetition without conflating it with that solved subcase|
 |Does preserving connectivity help?|Old strict/cleanup variants drew 48/48 and 29/48; do not reintroduce them without a distinct hypothesis|
-|Do v0.2 mechanics help?|392 games show high draws; none earns advancement. Breach/pressure/relay alone are insufficient fixes under tested agents|
-|Does larger board help?|Test size independently of reserves/start formation using same node budgets and matched seed clusters; present actual completed depths|
-|Is any opening forced?|Reduced-board tablebase, proof search, adversarial opening suites; no current opening solution claimed|
+|Do v0.2 mechanics help?|Old counts reproduced. Bare anchors account for only 10/225 draws; contact, evaluator and horizon effects remain distinct|
+|Does larger board help?|Fixed-reserve 5/6/7 sweep now exists, four paired seeds/size; too small for a general geometry verdict|
+|Is any opening forced?|A anchor-only 5/6/7 solved under fresh history; C 3/4 openings solved but 5 remains UNKNOWN at 250k proof nodes. No full-size opening dominance claim|
 |Are styles/deeper plans real?|Held-out evaluators, principal-variation review, feature ablations and human plan descriptions; branching is not the metric|
-|What selection formats feel fair and short?|Simulated calibrated match strengths plus human schedule tests; compare true-strongest selection probability, games and upset/recovery satisfaction|
+|What selection formats feel fair and short?|9,000 synthetic trials expose game-load costs; real LEVERAGE calibration and human scheduling remain unverified|
 |Do promotions change useful agency?|Observe P1 lead appointment and delegated roster choice, then loss/recovery; cut chores if administration dominates|
 |Can research aid judgments without guaranteed returns?|Out-of-time engine datasets, calibrate/shrink public-data forecasts, costs and after-fee net returns; synthetic averaging is not validation|
 |Can all money/claims reconcile?|P3 lifecycle adversarial test suite and long-run ledger/cap-table property tests before enabling markets|

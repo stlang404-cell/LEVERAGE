@@ -1,0 +1,38 @@
+LEVERAGE final R0 lab A5; YOU = North, AI = South. A=anchor, o=agent, x=enemy agent, Z=enemy anchor, #=wake. Human enjoyment/readability untested.
+Enter move number, ? for annotated actions, ai to play your turn, or quit. No saving or corporate systems in this research harness.
+   0 1 2 3 4
+0  . . A . .
+1  . . . . .
+2  . . . . .
+3  . . . . .
+4  . . Z . .
+Reserves (5, 5)
+North move (?/ai/quit):0 move (2, 0) → (1, 0)  power 1
+1 move (2, 0) → (3, 0)  power 1
+2 move (2, 0) → (2, 1)  power 1
+3 place reserve → (1, 0)
+4 place reserve → (3, 0)
+5 place reserve → (2, 1)
+   0 1 2 3 4
+0  . . A . .
+1  . . . . .
+2  . . . . .
+3  . . . . .
+4  . . Z . .
+Reserves (5, 5)
+North move (?/ai/quit):   0 1 2 3 4
+0  . . A . .
+1  . . o . .
+2  . . . . .
+3  . . . . .
+4  . . Z . .
+Reserves (4, 5)
+South: ('place', -1, 17)
+   0 1 2 3 4
+0  . . A . .
+1  . . o . .
+2  . . . . .
+3  . . x . .
+4  . . Z . .
+Reserves (4, 4)
+North move (?/ai/quit):

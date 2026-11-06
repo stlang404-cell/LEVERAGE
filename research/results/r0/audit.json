@@ -1,0 +1,10 @@
+{
+  "recorded_executions": 920,
+  "distinct_trial_identities": 904,
+  "independent_transitions_checked": 42765,
+  "independent_terminal_checks": true,
+  "exact_representative_replays": 3,
+  "excluded_from_replay": [
+    "elapsed timing"
+  ]
+}

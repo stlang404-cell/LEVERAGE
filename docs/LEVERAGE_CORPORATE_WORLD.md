@@ -2,6 +2,8 @@
 
 **Plausible but unverified:** proposed gameplay specification; population fixture costs are measured separately in [evidence](LEVERAGE_BOARD_GAME_RESEARCH.md). History and governance are not yet a production simulation.
 
+**Final R0: RESEARCH STOP.** The design below is retained, with selection refinements informed by synthetic trials, not implemented world behavior. No corporate production starts until the board gate reopens.
+
 ## Actual seats, actual authority
 
 Preserve the entity model in [historical world design](../research/07_CORPORATE_WORLD_DESIGN.md): Person ≠ Position ≠ Title ≠ Grade ≠ Rating ≠ Ownership ≠ NetWorth. A position has stable ID, compensation envelope, function, organization, reporting parent, eligibility and occupant or vacancy. A company contains divisions, departments, offices and teams, not thousands of rank labels. Staffing capacity produces services under finite customer demand. One primary position per employee; acyclic reporting; one occupant per seat. Ownership controls governance votes, not a magical personal treasury withdrawal.
@@ -16,17 +18,17 @@ For the first lead vacancy, tournament entry needs training and review completio
 
 |Tier|Candidate count / format|Role of result|
 |---|---|---|
-|Department/team lead|2–4, paired-color round robin|Guaranteed appointment if prepublished legal eligibility still holds|
-|Management trial|4–8, 3-round Swiss plus top-two paired final|Guaranteed funded seat or explicitly named nomination, never ambiguous|
-|Director|8–16, 4-round Swiss then paired top-four bracket|Earn nomination; published operating qualification and approval checks|
-|Executive circuit|16+, qualifier to 8-person round robin across scheduled days|Rank shortlist for board approval with disclosed criteria|
+|Department/team lead|Two finalists after published eligibility shortlist; paired-color selection|Guaranteed appointment if prepublished legal eligibility still holds|
+|Management trial|Reuse one shared qualifier circuit; two-person paired final|Guaranteed funded seat or explicitly named nomination, never ambiguous|
+|Director|Shared circuit to four finalists; paired knockout|Earn nomination; published operating qualification and approval checks|
+|Executive circuit|Season evidence/qualifiers to four finalists, paired knockout; large leagues mostly AI/background|Rank shortlist for board approval with disclosed criteria|
 |Board championship|4–8 qualified nominees, paired matches|Elective board nomination; shareholder vote remains distinct|
-|CEO succession|Board-qualified shortlist 2–4, paired round robin|Competitive winner preferred under charter; vote/constraints disclosed before entry|
+|CEO succession|Two to four board-qualified finalists, rare paired final/bracket with governance stakes|Competitive winner preferred under charter; vote/constraints disclosed before entry|
 |Control competition|Only charter-authorized, pre-funded share prize|Transfers specified shares; never invents control rights or confiscates existing ownership|
 
-Knockout is legible and quick but one upset dominates; paired-color matches mitigate seat imbalance, not skill variance. Round robin compares all contenders but costs m(m−1) games when each pair plays both colors. Swiss reduces games but opponent strength and pairing affect results; never compare raw score across different fields. Hybrid adds excitement after broader qualification. These are design arguments, not measured promotion-fairness results. Huge brackets are not required for every vacancy.
+Knockout is legible and quick but one upset dominates; paired-color matches mitigate seat imbalance, not skill variance. Round robin compares all contenders but costs m(m−1) games when each pair plays both colors. Swiss reduces games but opponent strength and pairing affect results; never compare raw score across different fields. Hybrid adds excitement after broader qualification. Synthetic format tests below are not calibrated LEVERAGE promotion-fairness evidence. Huge brackets are not required for every vacancy.
 
-Seeding: published rating order with stable employee-ID tie-break; balanced top/bottom bracket, recorded pairings, no repeat Swiss opponent unless unavoidable. Swiss bye assigned lowest-score player without prior bye, one point and no rating change; withdrawn participants receive no future byes. Games score 1/0.5/0; paired match total determines winner. Tie-breaks: head-to-head if all tied have met equally, then opponents' score excluding bye, then two additional color-swapped games; if still tied, use the posted prior-review operational score then seeded public lot. The final lot is a corporate selection rule, never a random board outcome; display it explicitly. Do not use sudden-death first-player advantage before fairness is known.
+Seeding: published rating order with stable employee-ID tie-break; balanced top/bottom bracket, recorded pairings, no repeat Swiss opponent unless unavoidable. Swiss bye assigned lowest-score player without prior bye, one point and no rating change; withdrawn participants receive no future byes. Games score 1/0.5/0; paired match total determines winner. Tie-breaks: head-to-head if all tied have met equally, then opponents' score excluding bye, then two additional color-swapped games; if still tied, use the posted prior-review operational score then the posted role-qualification score. If still identical, leave the selection unresolved with a funded interim caretaker and carry qualification evidence to the next published event. Do not invent a board win, random appointment or hidden favorite. This unresolved-draw burden is one reason official formats remain gated. Do not use sudden-death first-player advantage before fairness is known.
 
 Withdrawal before start reseeds once; after start completed results stand and remaining games are administrative forfeits (no rating updates). Recorded engine/rules defect pauses affected round and recomputes only annulled games from saved pre-round state; funded prizes remain escrowed. Appeals within one simulated day check eligibility, logs or rules faults, not dislike of a loss. Daily scheduling respects one live player match at a time; waiting periods are Advance actions, not real-time gates. Offer nearest appropriate vacancy instead of forcing the player to play dozens of background fixtures.
 
@@ -43,3 +45,21 @@ Demotion: published objectives, warning, one recovery review, then lawful seat c
 ## Permanent history
 
 Every former CEO, championship, bankruptcy, promotion, dynasty and comeback derives from a committed event with entity IDs, tick, predecessor and source result. Index notable events and annual summaries; archive detail without deleting award provenance. “Legendary comeback” requires a declared predicate (dismissed, later appointed above prior grade after at least one real contest), not random flavor. Store rating as-of the event, not today's rating. History is permanent within campaign retention/export limits; full audit archives must remain exportable before compaction.
+
+## Final R0 selection-cost experiment and simplification
+
+**Experimentally supported only in a synthetic model:** 9,000 selection trials (1,000 per format at 4/8/16 entrants), paired colors, 25% assumed game draw chance, logistic latent strength with +0.03 first-seat bonus, observed seeding ratings with SD 80 noise. This is NOT the current board engine. The greedy Swiss pairing fallback and rating-based tie fallback are experimental approximations, not a validated official scheduler or the exact product approval policy. [Raw results](../research/results/r0/tournaments.json).
+
+|Eight entrants|Median total games|Median champion games|True strongest selected in toy model|
+|---|---:|---:|---:|
+|Paired knockout with capped tie extensions|18|8|40.8%|
+|Paired round robin|56|14|44.0%|
+|Paired Swiss + final|34|10|40.2%|
+
+Confidence intervals and other sizes are in the raw file. These point estimates do not establish format superiority or real player fairness. High candidate draw rates may make the assumed 25% unrealistically low. Do not solve the board's failure by endless tie matches.
+
+Vacancies arise from actual resignations/retirement, approved funded growth, transfers and lawful reorganization; no repeated fake seat for a promotion XP reward. New seats require an organizational function, demand/capacity rationale, reporting parent and funded compensation. Saved auto-apply filters (company, role scope, minimum compensation) attach current evidence and pause on a conflicting offer. One certificate/circuit result can qualify for multiple genuine vacancies during its published validity window; no repeated qualifier grind per title.
+
+For personal selection the player chooses to enter, play required rounds, or explicitly withdraw/forfeit. Skipping an unplayed personal match cannot award a human rating or an unearned appointment. AI teammates can play designated team events under their own identities/ratings. Spectator/background skip advances the same committed event IDs, budgets and results; viewing, skipping and reopening never reroll them. This needs a future replay-invariance integration test, not a claim of current implementation.
+
+A lead contest should usually expose two finalists and at most one paired final plus the prepublished tie cap; executive prestige comes from scarce real authority, recorded nomination/governance, salary/research scope and rare high-stakes finals, not mandatory 64-player brackets. Applications and promotions remain apply → compete → approval → promote. Winning a genuine guaranteed appointment cannot be vetoed by a hidden politician. Salary/research budgets are funded transfers; title never changes match rules or reveals private open-market engine information. Demotion warnings, lateral transfers, rival recruitment and no-betting recovery remain required.

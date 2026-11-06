@@ -10,3 +10,7 @@ No delivery dates are asserted without team/cost information. Each stage ends in
 5. Scale, art and release: benchmark 2k then 20k targets, authored pixel kit, accessibility and long campaigns. Choose desktop shell from actual packaging spikes; test Windows installer on clean VM and iPhone installed offline behavior on physical hardware. Gate: disclosed performance results, migration/crash/export recovery, asset licensing and offline audit.
 
 At every stage: report build commit, rule version, tests executed, real gameplay evidence, known defects and omitted systems. A placeholder economy or abstract offscreen result is never presented as a finished market or full engine match. Dependencies: stable board before rating/odds calibration; stable event IDs before settlement; stable ownership before conflict checks; saved schema before campaign expansion.
+
+## Final R0 supersession note
+
+This document preserves historical evidence and proposals. The current [final R0 report](../docs/LEVERAGE_R0_FINAL_RESEARCH_REPORT.md) records **RESEARCH STOP**, with exact new rules/results in research 20–21. No historical recommendation here authorizes implementation of an unapproved or rejected ruleset. Frozen rule text and old experiment sources/results remain unchanged.

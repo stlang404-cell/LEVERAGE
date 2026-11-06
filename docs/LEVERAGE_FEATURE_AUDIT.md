@@ -4,9 +4,9 @@
 
 |Feature|Decision|Value / required simplification or evidence|
 |---|---|---|
-|One network board game|Improve|B/A/P; current rules fail production gate, continue research|
+|One exceptional central board game|Blocked / RESEARCH STOP|No R0 candidate selected; diagnose one A repetition before further invention or production|
 |Five old games as release modes|Reject|Fragmented mastery; retain as research controls only|
-|Larger boards/more piece types|Defer|B unknown; tested larger bundles drew more, no complexity bonus|
+|Larger boards/more piece types|Defer|B unknown; fixed-reserve 5/6/7 controls remain small; raw branching never proves depth|
 |Local difficulty/ratings/replay|Keep|B/P/U; measured budget ladder and uncertainty, no superhuman claim|
 |Actual positions/reporting|Keep|C/A/P; show local scope, not all seats simultaneously|
 |Apply/compete/approval/promote|Improve|C/A/P; one-button application and published appointment contract|
@@ -32,5 +32,7 @@
 |Paid APIs/accounts/remote inference|Reject|Violates product requirements|
 |Tamper-proof local saves/markets|Reject as promise|Device owner can inspect data; prioritize corruption recovery|
 |Export/import/migrations/accessibility|Keep|A/U; essential trust and usability, not polish deferred forever|
+
+Final R0 rejects advancing A/B/C as product rules; A is a diagnostic lead only. A zero-draw challenger does not earn advancement when deeper skill separation and intended victory behavior are unsupported. Keep the civilization ambitions, defer their construction.
 
 Revisit deferred mechanics only after their dependency gate in [roadmap](LEVERAGE_IMPLEMENTATION_ROADMAP.md). Every added feature must replace complexity elsewhere or justify its interaction with the main loop. No feature is complete because a screen displays its name.

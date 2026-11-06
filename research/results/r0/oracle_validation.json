@@ -1,0 +1,6 @@
+{
+  "sampled_states": 10000,
+  "unique_config_positions": 9326,
+  "transitions_compared": 97623,
+  "terminal_oracle": true
+}

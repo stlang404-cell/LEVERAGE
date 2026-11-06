@@ -24,3 +24,7 @@ Status vocabulary: Verified = directly checked property in stated scope; Experim
 |Source freshness|Unverified externally; links not freshly retrieved|Verify primary rules, publication metadata and platform docs before freezing specification|
 
 No production readiness claim follows from this package. The scientific result is an executable starting point plus evidence against premature certainty. Scope is realistic only as staged development with a board-game rejection gate.
+
+## Final R0 supersession note
+
+This document preserves historical evidence and proposals. The current [final R0 report](../docs/LEVERAGE_R0_FINAL_RESEARCH_REPORT.md) records **RESEARCH STOP**, with exact new rules/results in research 20–21. No historical recommendation here authorizes implementation of an unapproved or rejected ruleset. Frozen rule text and old experiment sources/results remain unchanged.

@@ -1,0 +1,257 @@
+{
+  "main": {
+    "A": {
+      "games": 224,
+      "first_win": 78,
+      "draw": 61,
+      "second_win": 85,
+      "first_score": 0.484375,
+      "first_cluster95": [
+        0.44419642857142855,
+        0.5245535714285714
+      ],
+      "plies_p50": 23.5,
+      "plies_p90": 71,
+      "plies_p95": 109,
+      "branch_p50": 9.0,
+      "branch_p90": 14,
+      "branch_mean": 9.05464404894327,
+      "branch_range": [
+        1,
+        25
+      ],
+      "move_ms_p50": 1.026211499947749,
+      "move_ms_p95": 65.06987599959757,
+      "endings": {
+        "anchor": 163,
+        "repetition": 53,
+        "limit": 8
+      },
+      "anchor_only_games": 0,
+      "captures": 556,
+      "multi_piece_collapse_events": 274,
+      "opening_first_actions": 15,
+      "opening_four_actions": 109
+    },
+    "B": {
+      "games": 224,
+      "first_win": 32,
+      "draw": 156,
+      "second_win": 36,
+      "first_score": 0.49107142857142855,
+      "first_cluster95": [
+        0.4799107142857143,
+        0.5
+      ],
+      "plies_p50": 87.0,
+      "plies_p90": 120,
+      "plies_p95": 120,
+      "branch_p50": 8,
+      "branch_p90": 13,
+      "branch_mean": 8.923408845738942,
+      "branch_range": [
+        2,
+        24
+      ],
+      "move_ms_p50": 1.855665999755729,
+      "move_ms_p95": 88.97399299985409,
+      "endings": {
+        "insufficient_road_material": 12,
+        "immobile": 65,
+        "repetition": 68,
+        "limit": 76,
+        "road": 3
+      },
+      "anchor_only_games": 0,
+      "captures": 599,
+      "multi_piece_collapse_events": 241,
+      "opening_first_actions": 12,
+      "opening_four_actions": 119
+    },
+    "C": {
+      "games": 224,
+      "first_win": 150,
+      "draw": 0,
+      "second_win": 74,
+      "first_score": 0.6696428571428571,
+      "first_cluster95": [
+        0.59375,
+        0.7366071428571428
+      ],
+      "plies_p50": 18.0,
+      "plies_p90": 19,
+      "plies_p95": 19,
+      "branch_p50": 4.0,
+      "branch_p90": 7,
+      "branch_mean": 4.3354943273906,
+      "branch_range": [
+        1,
+        8
+      ],
+      "move_ms_p50": 0.16125599995575612,
+      "move_ms_p95": 5.611643000065669,
+      "endings": {
+        "immobile": 223,
+        "delivered_two": 1
+      },
+      "anchor_only_games": 0,
+      "captures": 0,
+      "multi_piece_collapse_events": 0,
+      "opening_first_actions": 14,
+      "opening_four_actions": 123
+    }
+  },
+  "strength": {
+    "A": {
+      "greedy/random": {
+        "wins": 64,
+        "draws": 0,
+        "losses": 0,
+        "score": 1.0,
+        "cluster95": [
+          1.0,
+          1.0
+        ]
+      },
+      "tactical/greedy": {
+        "wins": 41,
+        "draws": 18,
+        "losses": 5,
+        "score": 0.78125,
+        "cluster95": [
+          0.7109375,
+          0.84375
+        ]
+      },
+      "deep/tactical": {
+        "wins": 21,
+        "draws": 42,
+        "losses": 1,
+        "score": 0.65625,
+        "cluster95": [
+          0.59375,
+          0.71875
+        ]
+      }
+    },
+    "B": {
+      "greedy/random": {
+        "wins": 63,
+        "draws": 1,
+        "losses": 0,
+        "score": 0.9921875,
+        "cluster95": [
+          0.9765625,
+          1.0
+        ]
+      },
+      "tactical/greedy": {
+        "wins": 0,
+        "draws": 64,
+        "losses": 0,
+        "score": 0.5,
+        "cluster95": [
+          0.5,
+          0.5
+        ]
+      },
+      "deep/tactical": {
+        "wins": 0,
+        "draws": 64,
+        "losses": 0,
+        "score": 0.5,
+        "cluster95": [
+          0.5,
+          0.5
+        ]
+      }
+    },
+    "C": {
+      "greedy/random": {
+        "wins": 49,
+        "draws": 0,
+        "losses": 15,
+        "score": 0.765625,
+        "cluster95": [
+          0.65625,
+          0.859375
+        ]
+      },
+      "tactical/greedy": {
+        "wins": 38,
+        "draws": 0,
+        "losses": 26,
+        "score": 0.59375,
+        "cluster95": [
+          0.53125,
+          0.671875
+        ]
+      },
+      "deep/tactical": {
+        "wins": 32,
+        "draws": 0,
+        "losses": 32,
+        "score": 0.5,
+        "cluster95": [
+          0.421875,
+          0.578125
+        ]
+      }
+    }
+  },
+  "weighted": {
+    "default": {
+      "A": {
+        "midpoint": 65.38571428571429,
+        "low": 44.98571428571429,
+        "high": 85.78571428571429
+      },
+      "B": {
+        "midpoint": 51.71428571428571,
+        "low": 31.31428571428571,
+        "high": 72.11428571428571
+      },
+      "C": {
+        "midpoint": 65.0,
+        "low": 44.6,
+        "high": 85.4
+      }
+    },
+    "draw_heavy": {
+      "A": {
+        "midpoint": 66.84285714285714,
+        "low": 49.642857142857146,
+        "high": 84.04285714285714
+      },
+      "B": {
+        "midpoint": 50.457142857142856,
+        "low": 33.25714285714285,
+        "high": 67.65714285714286
+      },
+      "C": {
+        "midpoint": 68.2,
+        "low": 51.0,
+        "high": 85.4
+      }
+    },
+    "skill_heavy": {
+      "A": {
+        "midpoint": 64.18571428571428,
+        "low": 46.98571428571429,
+        "high": 81.38571428571429
+      },
+      "B": {
+        "midpoint": 48.51428571428572,
+        "low": 31.31428571428571,
+        "high": 65.71428571428571
+      },
+      "C": {
+        "midpoint": 61.8,
+        "low": 44.6,
+        "high": 79.0
+      }
+    }
+  },
+  "recorded_executions": 920,
+  "distinct_trial_identities": 904
+}

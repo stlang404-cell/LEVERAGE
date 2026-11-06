@@ -1,0 +1,39 @@
+test_breach_not_anchor (test_continuation.ContinuationTests.test_breach_not_anchor) ... ok
+test_immediate_anchor_capture (test_continuation.ContinuationTests.test_immediate_anchor_capture) ... ok
+test_push_and_anchor_component (test_continuation.ContinuationTests.test_push_and_anchor_component) ... ok
+test_push_blocked_edge (test_continuation.ContinuationTests.test_push_blocked_edge) ... ok
+test_relay_no_enemy_jump (test_continuation.ContinuationTests.test_relay_no_enemy_jump) ... ok
+test_rotation_color_symmetry (test_continuation.ContinuationTests.test_rotation_color_symmetry) ... ok
+test_search_budget_and_history (test_continuation.ContinuationTests.test_search_budget_and_history) ... ok
+test_terminal_and_repetition (test_continuation.ContinuationTests.test_terminal_and_repetition) ... ok
+test_walks_and_material (test_continuation.ContinuationTests.test_walks_and_material) ... ok
+test_ledger_conservation (test_lab.FinanceTests.test_ledger_conservation) ... ok
+test_lmsr_bounds_and_round_trip (test_lab.FinanceTests.test_lmsr_bounds_and_round_trip) ... ok
+test_energy_and_block (test_lab.RulesTests.test_energy_and_block) ... ok
+test_equal_power_cannot_capture (test_lab.RulesTests.test_equal_power_cannot_capture) ... ok
+test_forced_leader_and_immobility (test_lab.RulesTests.test_forced_leader_and_immobility) ... ok
+test_initial_and_reachable_states (test_lab.RulesTests.test_initial_and_reachable_states) ... ok
+test_jump_and_delivery (test_lab.RulesTests.test_jump_and_delivery) ... ok
+test_leverage_cut (test_lab.RulesTests.test_leverage_cut) ... ok
+test_missing_leader (test_lab.RulesTests.test_missing_leader) ... ok
+test_repetition_and_limit (test_lab.RulesTests.test_repetition_and_limit) ... ok
+test_rotation_inverse (test_lab.RulesTests.test_rotation_inverse) ... ok
+test_alpha_beta_matches_exhaustive_depth2 (test_r0.R0Tests.test_alpha_beta_matches_exhaustive_depth2) ... ok
+test_anchor_exposure (test_r0.R0Tests.test_anchor_exposure) ... ok
+test_bridge_road (test_r0.R0Tests.test_bridge_road) ... ok
+test_draws_and_symmetry (test_r0.R0Tests.test_draws_and_symmetry) ... ok
+test_exact_anchor_tablebase_bellman (test_r0.R0Tests.test_exact_anchor_tablebase_bellman) ... ok
+test_illegal_and_terminal (test_r0.R0Tests.test_illegal_and_terminal) ... ok
+test_insufficient_road_material (test_r0.R0Tests.test_insufficient_road_material) ... ok
+test_oracle_10000_states (test_r0.R0Tests.test_oracle_10000_states) ... ok
+test_search_cache_and_history (test_r0.R0Tests.test_search_cache_and_history) ... ok
+test_small_wake_proofs (test_r0.R0Tests.test_small_wake_proofs) ... ok
+test_target_support_and_collapse (test_r0.R0Tests.test_target_support_and_collapse) ... ok
+test_terminal_tactics_all_candidates (test_r0.R0Tests.test_terminal_tactics_all_candidates) ... ok
+test_wake_and_parked (test_r0.R0Tests.test_wake_and_parked) ... ok
+test_wake_monotonic (test_r0.R0Tests.test_wake_monotonic) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 13.142s
+
+OK
